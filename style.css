@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background-color: burlywood;
+}
+
+.card{
+    margin: auto;
+    background-color: #264653
+}
+
+.card-title{
+    text-align: center;
+    font-size: 2pc;
+    color: #e9c46a;
+    
+    
+}
+
+
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: #2a9d8f;
+    display: grid;
+    
+}
+.square:hover{
+    cursor: pointer;
+    background-color: #f4ae61
+}
+
+.heading {
+    text-align: center;
+}
+.text1{
+    font-size: 3pc;
+    text-align: center;
+    margin-top: 11px;
+    display: inline;
+    color: #e9c46a
+}
+  
+
+
+
+.btn{
+    margin: auto;
+    display: flex;
+
+}
+
+.Draw{
+    text-align: center;
+    display: inline;
+    color: #e9c46a;
+    font-size: larger;
+    
+}
+
+
